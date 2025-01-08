@@ -9,6 +9,16 @@
 a {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Heading Section */
 .heading {
   width: 1600px;
   margin: 0 auto;
@@ -18,12 +28,15 @@ a {
   padding: 50px 20px;
   background: rgb(255, 248, 243);
 }
+
 .heading img {
   width: 101px;
 }
+
 .main-section {
   width: 100%;
 }
+
 .navbar {
   width: 100%;
   display: flex;
@@ -32,28 +45,34 @@ a {
   height: 10%;
   padding: 0 200px 0 70px;
 }
+
 .navbar h3 {
   font-size: 45px;
   font-weight: 800;
   text-align: left;
 }
+
 .navbar h3 span {
   color: rgb(253, 110, 10);
 }
+
 .links {
   display: flex;
   align-items: center;
   column-gap: 50px;
 }
+
 .links a {
   color: rgb(71, 71, 71);
   font-size: 20px;
   font-weight: 400;
   transition: color 0.3s ease;
 }
+
 .links a:hover {
   color: rgb(253, 110, 10);
 }
+
 .links button {
   width: 150px;
   height: 64px;
@@ -64,6 +83,7 @@ a {
   font-weight: 700;
   border: none;
 }
+
 .hero-section {
   width: 100%;
   display: flex;
@@ -79,26 +99,31 @@ a {
   padding: 0 60px 0 0;
   row-gap: 10px;
 }
+
 .hero-text h3 {
   color: rgb(71, 71, 71);
   font-size: 45px;
   font-weight: 600;
 }
+
 .hero-text h1 {
   color: rgb(24, 24, 24);
   font-size: 85px;
   font-weight: 700;
 }
+
 .hero-text p {
   color: rgb(117, 117, 117);
   font-size: 18px;
   font-weight: 400;
 }
+
 .buttons {
   margin-top: 25px;
   display: flex;
   column-gap: 30px;
 }
+
 .buttons button:nth-child(1) {
   width: 200px;
   height: 64px;
@@ -122,26 +147,31 @@ a {
   border: 1px solid rgb(253, 110, 10);
   border-radius: 5px;
 }
+
 .hero-img {
   width: 50%;
   position: relative;
 }
+
 .hero-img img:nth-child(1) {
   width: 115%;
   position: absolute;
   bottom: -7.4%;
   right: -12%;
 }
+
 .hero-img img:nth-child(2) {
   position: absolute;
   width: 82%;
   bottom: -7.4%;
   right: -5%;
 }
+
 .about-me-section {
   width: 100%;
   margin: 150px auto;
 }
+
 .about-me-section .container {
   width: 1140px;
   height: 550px;
@@ -151,6 +181,7 @@ a {
   margin: 0 auto;
   background-color: #fff8f3;
 }
+
 .about-me-section .content {
   width: 827px;
   height: 288px;
@@ -162,22 +193,26 @@ a {
   justify-content: space-between;
   padding: 10px 0;
 }
+
 .about-me-section .content h2 {
   color: rgb(24, 24, 24);
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
+
 .about-me-section .content p {
   color: rgb(117, 117, 117);
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
+
 .about-me-section .details {
   display: flex;
   justify-content: space-around;
 }
+
 .about-me-section .details .items {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
@@ -188,10 +223,12 @@ a {
   text-align: center;
 }
 /* Skills Section */
+
 .skills-section {
   width: 100%;
   margin: 150px auto;
 }
+
 .skills-section .container {
   width: 1140px;
   margin: 0 auto;
@@ -199,6 +236,7 @@ a {
   flex-direction: column;
   row-gap: 40px;
 }
+
 .skills-section h2 {
   color: rgb(24, 24, 24);
   font-size: 35px;
@@ -206,16 +244,19 @@ a {
   line-height: 48px;
   text-align: center;
 }
+
 .skills-section p {
   color: rgb(117, 117, 117);
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
+
 .skills-section .skills {
   display: flex;
   justify-content: space-between;
 }
+
 .skills-section .skills .card {
   width: 267px;
   height: 377px;
@@ -231,19 +272,23 @@ a {
   cursor: pointer;
   padding: 30px;
 }
+
 .skills-section .skills .card:hover {
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .skills-section .skills .card img {
   width: 44px;
   height: 44px;
 }
+
 .skills-section .skills .card h3 {
   color: rgb(24, 24, 24);
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
 }
+
 .skills-section .skills .card p {
   color: rgb(117, 117, 117);
   font-size: 16px;
@@ -252,11 +297,14 @@ a {
   letter-spacing: 0%;
   text-align: start;
 }
-/* Experience Section */
+
+/* Education & Experience Section */
+
 .experiences-section {
   width: 100%;
   margin: 150px auto;
 }
+
 .experiences-section .container {
   width: 1140px;
   margin: 0 auto;
@@ -265,28 +313,33 @@ a {
   align-items: center;
   row-gap: 90px;
 }
+
 .experiences-section .container h2 {
   color: rgb(24, 24, 24);
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
+
 .experience-education {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .education,
 .experience {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
+
 .experience-education .cards {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 }
+
 .experience-title,
 .education-title {
   color: rgb(71, 71, 71);
@@ -294,6 +347,7 @@ a {
   font-weight: 700;
   text-align: left;
 }
+
 .experience-education .card {
   width: 558px;
   border-bottom: 2px solid rgb(209, 209, 209);
@@ -303,26 +357,31 @@ a {
   row-gap: 20px;
   padding: 20px 20px 20px 0;
 }
+
 .experience-education .card .titles {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
+
 .experience-education .card h3 {
   color: rgb(71, 71, 71);
   font-size: 25px;
   font-weight: 700;
 }
+
 .experience-education .card h4 {
   color: rgb(117, 117, 117);
   font-size: 20px;
   font-weight: 600;
 }
+
 .experience-education .card p {
   color: rgb(117, 117, 117);
   font-size: 16px;
   font-weight: 400;
 }
+
 .experiences-section .container button {
   width: 200px;
   height: 64px;
@@ -344,6 +403,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .footer .container {
   width: 1140px;
   display: flex;
@@ -357,6 +417,7 @@ a {
   align-items: start;
   row-gap: 40px;
 }
+
 .footer .container .text h2,
 .contact-form h2 {
   color: rgb(24, 24, 24);
@@ -364,16 +425,19 @@ a {
   font-weight: 700;
   line-height: 48px;
 }
+
 .footer .container .text p {
   color: rgb(71, 71, 71);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
+
 .footer .container .text .icons {
   display: flex;
   column-gap: 14px;
 }
+
 .footer .container .text .icons a {
   color: rgb(253, 110, 10);
   font-size: 24px;
@@ -393,6 +457,7 @@ a {
   row-gap: 20px;
   align-items: start;
 }
+
 .footer .container .contact-form .form input {
   width: 461px;
   height: 60px;
@@ -402,6 +467,7 @@ a {
   outline: none;
   padding: 10px 20px;
 }
+
 .footer .container .contact-form .form input[placeholder],
 .form textarea[placeholder] {
   color: rgb(117, 117, 117);
@@ -412,6 +478,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .footer .container .contact-form .form textarea {
   padding: 10px 20px;
   width: 461px;
@@ -421,6 +488,7 @@ a {
   border: none;
   outline: none;
 }
+
 .footer .container .contact-form .form button {
   width: 150px;
   height: 64px;
