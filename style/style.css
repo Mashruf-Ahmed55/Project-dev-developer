@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  width: 1600px;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background: rgb(255, 248, 243);
+}
+
+.heading img {
+  width: 101px;
+}
+.main-section {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 0 200px 0 70px;
+}
+.navbar h3 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: left;
+}
+.navbar h3 span {
+  color: rgb(253, 110, 10);
+}
+.links {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+.links a {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.links a:hover {
+  color: rgb(253, 110, 10);
+}
+.links button {
+  width: 150px;
+  height: 64px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 0 70px;
+  height: 90%;
+}
+.hero-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px 0 0;
+  row-gap: 10px;
+}
+
+.hero-text h3 {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+}
+.hero-text h1 {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+.hero-text p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+}
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  column-gap: 30px;
+}
+.buttons button:nth-child(1) {
+  width: 200px;
+  height: 64px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background: rgb(253, 110, 10);
+  cursor: pointer;
+}
+.buttons button:nth-child(2) {
+  cursor: pointer;
+  width: 160px;
+  height: 64px;
+  color: rgb(253, 110, 10);
+  background: none;
+  font-size: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: 1px solid rgb(253, 110, 10);
+  border-radius: 5px;
+}
+
+.hero-img {
+  width: 50%;
+  position: relative;
+}
+
+.hero-img img:nth-child(1) {
+  width: 115%;
+  position: absolute;
+  bottom: -7.4%;
+  right: -12%;
+}
+.hero-img img:nth-child(2) {
+  position: absolute;
+  width: 82%;
+  bottom: -7.4%;
+  right: -5%;
+}
