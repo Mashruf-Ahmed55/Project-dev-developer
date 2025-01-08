@@ -6,11 +6,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', serif;
 }
-
 a {
   text-decoration: none;
 }
-
 .heading {
   width: 1600px;
   margin: 0 auto;
@@ -20,7 +18,6 @@ a {
   padding: 50px 20px;
   background: rgb(255, 248, 243);
 }
-
 .heading img {
   width: 101px;
 }
@@ -67,7 +64,6 @@ a {
   font-weight: 700;
   border: none;
 }
-
 .hero-section {
   width: 100%;
   display: flex;
@@ -83,7 +79,6 @@ a {
   padding: 0 60px 0 0;
   row-gap: 10px;
 }
-
 .hero-text h3 {
   color: rgb(71, 71, 71);
   font-size: 45px;
@@ -127,12 +122,10 @@ a {
   border: 1px solid rgb(253, 110, 10);
   border-radius: 5px;
 }
-
 .hero-img {
   width: 50%;
   position: relative;
 }
-
 .hero-img img:nth-child(1) {
   width: 115%;
   position: absolute;
@@ -145,7 +138,6 @@ a {
   bottom: -7.4%;
   right: -5%;
 }
-
 .about-me-section {
   width: 100%;
   margin: 150px auto;
@@ -195,12 +187,11 @@ a {
   letter-spacing: 0%;
   text-align: center;
 }
-
+/* Skills Section */
 .skills-section {
   width: 100%;
   margin: 150px auto;
 }
-
 .skills-section .container {
   width: 1140px;
   margin: 0 auto;
@@ -208,7 +199,6 @@ a {
   flex-direction: column;
   row-gap: 40px;
 }
-
 .skills-section h2 {
   color: rgb(24, 24, 24);
   font-size: 35px;
@@ -222,12 +212,10 @@ a {
   font-weight: 400;
   text-align: center;
 }
-
 .skills-section .skills {
   display: flex;
   justify-content: space-between;
 }
-
 .skills-section .skills .card {
   width: 267px;
   height: 377px;
@@ -263,4 +251,86 @@ a {
   line-height: 28px;
   letter-spacing: 0%;
   text-align: start;
+}
+/* Experience Section */
+.experiences-section {
+  width: 100%;
+  margin: 150px auto;
+}
+.experiences-section .container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 90px;
+}
+.experiences-section .container h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.experience-education {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.education,
+.experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.experience-education .cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.experience-title,
+.education-title {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.experience-education .card {
+  width: 558px;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 20px;
+  padding: 20px 20px 20px 0;
+}
+.experience-education .card .titles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.experience-education .card h3 {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+}
+.experience-education .card h4 {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience-education .card p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+}
+.experiences-section .container button {
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  background: rgb(253, 110, 10);
+  border: none;
 }
