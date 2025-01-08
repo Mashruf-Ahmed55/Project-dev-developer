@@ -150,7 +150,7 @@ a {
   width: 100%;
   margin: 150px auto;
 }
-.container {
+.about-me-section .container {
   width: 1140px;
   height: 550px;
   display: flex;
@@ -159,7 +159,7 @@ a {
   margin: 0 auto;
   background-color: #fff8f3;
 }
-.content {
+.about-me-section .content {
   width: 827px;
   height: 288px;
   background-color: white;
@@ -167,24 +167,26 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+  justify-content: space-between;
+  padding: 10px 0;
 }
-.content h2 {
+.about-me-section .content h2 {
   color: rgb(24, 24, 24);
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
-.content p {
+.about-me-section .content p {
   color: rgb(117, 117, 117);
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
-.details {
+.about-me-section .details {
   display: flex;
   justify-content: space-around;
 }
-.details .items {
+.about-me-section .details .items {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
   font-size: 20px;
@@ -194,3 +196,71 @@ a {
   text-align: center;
 }
 
+.skills-section {
+  width: 100%;
+  margin: 150px auto;
+}
+
+.skills-section .container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.skills-section h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.skills-section p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills-section .skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-section .skills .card {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  row-gap: 20px;
+  align-items: start;
+  flex-direction: column;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  padding: 30px;
+}
+.skills-section .skills .card:hover {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-section .skills .card img {
+  width: 44px;
+  height: 44px;
+}
+.skills-section .skills .card h3 {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.skills-section .skills .card p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: start;
+}
