@@ -145,3 +145,52 @@ a {
   bottom: -7.4%;
   right: -5%;
 }
+
+.about-me-section {
+  width: 100%;
+  margin: 150px auto;
+}
+.container {
+  width: 1140px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fff8f3;
+}
+.content {
+  width: 827px;
+  height: 288px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.content h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.content p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+.details .items {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
